@@ -14,7 +14,7 @@ else if (num.value < random){
     display.innerHTML ='The number is bigger ';
 }
 else {
-    display.innerHTML =`congratulation !! You guess the right number <br> Your score is ${100-count}`;
+    display.innerHTML =`congratulation !! You guess the right number --${num.value} <br> Your score is ${100-count}`;
 }
     
 
